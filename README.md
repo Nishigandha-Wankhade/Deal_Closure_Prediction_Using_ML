@@ -27,13 +27,13 @@ Data Analysis & Preprocessing
 •	Analyse feature correlations and importance
 •	Split data into training, validation, and test sets (70/15/15 or 80/20)
 
-## **************************************************************************************************************************************************************8
+## *************************************************************************************************************************
 
 ## 1. Model Assumptions and Limitations
   ### Assumptions:
-  -	    The model assumes the historical CRM data reflects real business trends and that patterns found in past deals are predictive of future outcomes.
-  -	    It also assumes that the input features (e.g., deal type, customer engagement metrics) are reliable, well-labeled, and meaningful for learning.
-  -	    The binary classification approach assumes only two deal stages: “Closed Won” and “Closed Lost,” with no intermediate or ambiguous outcomes.
+  -	The model assumes the historical CRM data reflects real business trends and that patterns found in past deals are predictive of future outcomes.
+  -	It also assumes that the input features (e.g., deal type, customer engagement metrics) are reliable, well-labeled, and meaningful for learning.
+  -	The binary classification approach assumes only two deal stages: “Closed Won” and “Closed Lost,” with no intermediate or ambiguous outcomes.
   
   ### Limitations:
   -     The model may struggle with limited or imbalanced class distribution, especially if “Closed Won” deals are underrepresented.
