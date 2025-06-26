@@ -7,25 +7,24 @@ The task is to identify which deals are most likely to be won or lost based on h
 
 ### Dataset Features
 The dataset deal_details.xlsx contains the following features for analysis:
-•	id: Unique deal identifier
-•	email_count: Number of emails sent/received
-•	call_count: Number of calls made
-•	task_count: Number of tasks created
-•	meeting_count: Number of meetings scheduled/held
-•	notes_count: Number of notes added
-•	conversation_count: Number of conversations tracked
-•	deal_size: Monetary value of the deal
-•	close_date: Expected/actual close date
-•	deal_type: Category/type of deal
-•	deal_stage: Target variable (Won/Lost)
+- id: Unique deal identifier
+- email_count: Number of emails sent/received
+- call_count: Number of calls made
+- task_count: Number of tasks created
+- meeting_count: Number of meetings scheduled/held
+- notes_count: Number of notes added
+- conversation_count: Number of conversations tracked
+- deal_size: Monetary value of the deal
+- close_date: Expected/actual close date
+- deal_type: Category/type of deal
+- deal_stage: Target variable (Won/Lost)
 
 ### Acceptance Criteria
-Data Analysis & Preprocessing
-•	Perform exploratory data analysis (EDA) with visualizations
-•	Handle missing values and outliers appropriately
-•	Create feature engineering (e.g., activity ratios, time-based features)
-•	Analyse feature correlations and importance
-•	Split data into training, validation, and test sets (70/15/15 or 80/20)
+- Perform exploratory data analysis (EDA) with visualizations
+- Handle missing values and outliers appropriately
+- Create feature engineering (e.g., activity ratios, time-based features)
+- Analyse feature correlations and importance
+- Split data into training, validation, and test sets (70/15/15 or 80/20)
 
 ## *************************************************************************************************
 
